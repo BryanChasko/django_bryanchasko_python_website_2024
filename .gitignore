@@ -1,0 +1,5 @@
+# Ignore .env file
+/bryan_chasko_django_app/bryan_chasko_django_app/.env
+
+# Ignore virtual environment folder
+/venv_bryanchasko_django_website/
