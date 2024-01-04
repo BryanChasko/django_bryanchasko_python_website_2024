@@ -8,12 +8,12 @@ awscli==1.31.11
 boto3==1.33.11
 botocore==1.33.11
 certifi==2023.11.17
-cffi @ file:///private/tmp/cffi-20231015-5876-1oubxev/cffi-1.16.0
+cffi==1.16.0
 charset-normalizer==3.3.2
 colorama==0.4.4
 dataclasses-json==0.6.3
 Django==5.0
-docutils @ file:///private/tmp/docutils-20231123-5861-dkccqu/docutils-0.20.1
+docutils
 frozenlist==1.4.0
 greenlet==3.0.2
 idna==3.6
@@ -29,7 +29,7 @@ numexpr==2.8.7
 numpy==1.26.2
 packaging==23.2
 pyasn1==0.5.1
-pycparser @ file:///private/tmp/pycparser-20231013-6010-ksuqao/pycparser-2.21
+pycparser==2.21
 pydantic==2.5.2
 pydantic_core==2.14.5
 python-dateutil==2.8.2
