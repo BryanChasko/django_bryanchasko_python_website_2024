@@ -2,7 +2,6 @@ Bryanchasko Django Web App
 This repository contains the source code for the Bryanchasko website, built using Django and Python. 🌐✨
 
 How This Project Was Made
-This project was created step-by-step following a set of instructions to set up a Django web application:
 
 Setting Up the Development Environment
 Create Local Directory:
@@ -13,11 +12,12 @@ Python 3 Check:
 Verify Python 3 installation:
 python3 --version
 
-If not installed, use your system's package manager to install it. (e.g., on macOS, use brew install python3)
-Install Pip if Needed:
+If not installed, use your system's package manager to install python3. (e.g., on macOS, use brew install python3)
 
+Install Pip if Needed: 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
+or sudo apt install python3-pip
 
 Virtual Environment: A Realm for Isolation 🛡️
 Create a virtual environment to keep dependencies separate:
