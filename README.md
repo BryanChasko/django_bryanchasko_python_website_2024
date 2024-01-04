@@ -15,7 +15,6 @@ python3 --version
 
 If not installed, use your system's package manager to install it. (e.g., on macOS, use brew install python3)
 Install Pip if Needed:
-Install Pip (if needed):
 
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 python3 get-pip.py
@@ -49,8 +48,8 @@ bryan_chasko_django_app/
       ├── urls.py (routing map)
       └── asgi.py & wsgi.py (server gateways)
 
-Creating Your Secrets & Keeping Them Separate/out of Git
-Creating Your Secret Key:
+Creating Your Secrets & Keeping Them Separate/out of Git | Creating Your Secret Key:
+Creating a Secret Key:
 In your terminal from your Django project directory (bryan_chasko_django_app/), while activated in the virtual environment, run:
 python3 manage.py shell -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 
